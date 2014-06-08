@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="addClientInfo.aspx" />
     <Content Include="assets\img\blog\Thumbs.db" />
     <Content Include="assets\img\pages\Thumbs.db" />
     <Content Include="assets\img\social\Thumbs.db" />
@@ -282,6 +283,8 @@
     <Content Include="assets\plugins\select2\select2_locale_en.js.template" />
     <Content Include="assets\plugins\uniform\css\uniform.default.scss" />
     <Content Include="assets\plugins\uniform\README.md" />
+    <Content Include="clientInfo.aspx" />
+    <Content Include="masterPage.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1965,12 +1968,33 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addClientInfo.aspx.cs">
+      <DependentUpon>addClientInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addClientInfo.aspx.designer.cs">
+      <DependentUpon>addClientInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clientInfo.aspx.cs">
+      <DependentUpon>clientInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clientInfo.aspx.designer.cs">
+      <DependentUpon>clientInfo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="masterPage.Master.cs">
+      <DependentUpon>masterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterPage.Master.designer.cs">
+      <DependentUpon>masterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
