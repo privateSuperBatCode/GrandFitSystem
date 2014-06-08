@@ -83,10 +83,11 @@
 									<div class="col-md-9">
 										<div class="tab-content">
 											<div id="tab_1-1" class="tab-pane active">
-												<form role="form" action="#">
+												<form role="form" action="#" runat="server">
 													<div class="form-group">
 														<label class="control-label">First Name</label>
 														<input type="text" placeholder="John" class="form-control"/>
+                                                        <asp:TextBox ID="TextBox1" runat="server" placeholder="John" CssClass="form-control"></asp:TextBox>
 													</div>
 													<div class="form-group">
 														<label class="control-label">Last Name</label>
