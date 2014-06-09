@@ -10,7 +10,7 @@
 namespace GrandFitManagementSystem {
     
     
-    public partial class clientInfo {
+    public partial class addEmployeeInfo {
         
         /// <summary>
         /// TextBox1 control.

@@ -10,33 +10,33 @@
 namespace GrandFitManagementSystem {
     
     
-    public partial class addClientInfo {
+    public partial class addPattern {
         
         /// <summary>
-        /// sample_1 control.
+        /// itemDropDownList2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm sample_1;
+        protected global::System.Web.UI.WebControls.DropDownList itemDropDownList2;
         
         /// <summary>
-        /// SqlDataSource1 control.
+        /// patternDropDownList1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
+        protected global::System.Web.UI.WebControls.DropDownList patternDropDownList1;
         
         /// <summary>
-        /// GridView1 control.
+        /// patternTextBox1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.TextBox patternTextBox1;
     }
 }

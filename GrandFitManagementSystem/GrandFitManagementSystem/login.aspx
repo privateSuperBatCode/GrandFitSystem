@@ -63,21 +63,29 @@
 			<label class="control-label visible-ie8 visible-ie9">Username</label>
 			<div class="input-icon">
 				<i class="fa fa-user"></i>
-				<input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Username" name="username"/>
+                <asp:TextBox ID="txtUserName" runat="server" placeholder="Username" style="display: block;width: 100%;height: 34px;font-size: 14px;padding: 6px 12px;"></asp:TextBox>
+				<!--<input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Username" name="username"/>--> 
 			</div>
 		</div>
 		<div class="form-group">
 			<label class="control-label visible-ie8 visible-ie9">Password</label>
 			<div class="input-icon">
 				<i class="fa fa-lock"></i>
-				<input class="form-control placeholder-no-fix" type="password" autocomplete="off" placeholder="Password" name="password"/>
+                <asp:TextBox ID="txtPassword" runat="server" placeholder="Password" style="display: block;width: 100%;font-size: 14px;height: 34px;padding: 6px 12px;"></asp:TextBox>
+				<!--<input class="form-control placeholder-no-fix" type="password" autocomplete="off" placeholder="Password" name="password"/>-->
 			</div>
 		</div>
+        <div class="form control">
+            <asp:DropDownList ID="loginSelect" runat="server" placeholder="Select" style="display: block;width: 100%;height: 34px;padding: 6px 12px;font-size: 14px;line-height: 1.42857143;color: #555;background-color: #fff;background-image: none;border: 1px solid #ccc;border-radius: 4px;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);box-shadow: inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;">
+                <asp:ListItem>Admin</asp:ListItem>
+                <asp:ListItem>Client</asp:ListItem>
+            </asp:DropDownList>
+        </div>
 		<div class="form-actions">
-			
-			<button type="submit" class="btn blue">
+            <asp:Button ID="Button1" runat="server" Text="Sign In" CssClass="btn blue" />
+			<!--<button type="submit" class="btn blue">
 			Login <i class="m-icon-swapright m-icon-white"></i>
-			</button>
+			</button>-->
 		</div>
 		
 		<div class="forget-password">

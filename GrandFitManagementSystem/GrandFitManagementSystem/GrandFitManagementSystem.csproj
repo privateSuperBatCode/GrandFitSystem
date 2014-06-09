@@ -58,6 +58,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="addClientInfo.aspx" />
+    <Content Include="addEmployeeInfo.aspx" />
+    <Content Include="addField.aspx" />
+    <Content Include="addItem.aspx" />
+    <Content Include="addPattern.aspx" />
+    <Content Include="addStyle.aspx" />
     <Content Include="assets\img\blog\Thumbs.db" />
     <Content Include="assets\img\pages\Thumbs.db" />
     <Content Include="assets\img\social\Thumbs.db" />
@@ -284,6 +289,8 @@
     <Content Include="assets\plugins\uniform\css\uniform.default.scss" />
     <Content Include="assets\plugins\uniform\README.md" />
     <Content Include="clientInfo.aspx" />
+    <Content Include="employeeInfo.aspx" />
+    <Content Include="gallery.aspx" />
     <Content Include="masterPage.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -1975,12 +1982,61 @@
     <Compile Include="addClientInfo.aspx.designer.cs">
       <DependentUpon>addClientInfo.aspx</DependentUpon>
     </Compile>
+    <Compile Include="addEmployeeInfo.aspx.cs">
+      <DependentUpon>addEmployeeInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addEmployeeInfo.aspx.designer.cs">
+      <DependentUpon>addEmployeeInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addField.aspx.cs">
+      <DependentUpon>addField.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addField.aspx.designer.cs">
+      <DependentUpon>addField.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addItem.aspx.cs">
+      <DependentUpon>addItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addItem.aspx.designer.cs">
+      <DependentUpon>addItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addPattern.aspx.cs">
+      <DependentUpon>addPattern.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addPattern.aspx.designer.cs">
+      <DependentUpon>addPattern.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addStyle.aspx.cs">
+      <DependentUpon>addStyle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addStyle.aspx.designer.cs">
+      <DependentUpon>addStyle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="clientInfo.aspx.cs">
       <DependentUpon>clientInfo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="clientInfo.aspx.designer.cs">
       <DependentUpon>clientInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="employeeInfo.aspx.cs">
+      <DependentUpon>employeeInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="employeeInfo.aspx.designer.cs">
+      <DependentUpon>employeeInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gallery.aspx.cs">
+      <DependentUpon>gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gallery.aspx.designer.cs">
+      <DependentUpon>gallery.aspx</DependentUpon>
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
