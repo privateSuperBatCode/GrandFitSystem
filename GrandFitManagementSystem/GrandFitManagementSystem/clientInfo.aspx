@@ -86,7 +86,12 @@
 												<form role="form" action="#" runat="server">
 													<div class="form-group">
 														<label class="control-label">First Name</label>
+<<<<<<< HEAD
                                                         <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control" placeholder="First Name"></asp:TextBox>
+=======
+														<input type="text" placeholder="John" class="form-control"/>
+                                                        <asp:TextBox ID="TextBox1" runat="server" placeholder="John" CssClass="form-control"></asp:TextBox>
+>>>>>>> origin/master
 													</div>
 
 													<div class="form-group">
